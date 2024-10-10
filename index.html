@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Óscar Muñoz Cano | Portfolio</title>
+    <link rel="stylesheet" href="style.scss" />
+    <script type="module" src="src/main.js"></script>
+  </head>
+  <body>
+    <section id="hero">
+      <canvas id="background"></canvas>
+      <div class="container">
+        <div class="hero-container">
+          <div class="title-container">
+            <h1>
+              <span class="normal">Hi there! </span>
+            </h1>
+            <h2>
+              <span class="normal">I'm</span>&nbsp;<span class="name"
+                >Óscar Muñoz</span
+              ><br />An enthusiast
+              <span class="position">front-end developer</span>.
+            </h2>
+            <button id="scroll-btn" class="scroll">scroll down</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="horizontal">
+      <section id="projects-home">
+        <div class="projects-title" id="projects-home-title">
+          <h2 id="main-project-title" class="projects-title__title">
+            Projects
+          </h2>
+          <span id="main-project-tip" class="projects-title__tip"
+            >Keep scrolling.</span
+          >
+        </div>
+        <div class="projects-container">
+          <div class="project-card">
+            <img
+              id="imagina"
+              src="/img/projects/imagina.png"
+              alt="Imagina"
+              width="650"
+              height="384.61"
+            />
+          </div>
+          <div class="project-card">
+            <img
+              src="/img/projects/gyrusds.png"
+              alt="GyrusDS"
+              width="650"
+              height="384.61"
+            />
+          </div>
+          <div class="project-card">
+            <img
+              src="/img/projects/sulcus.png"
+              alt="Sulcus"
+              width="650"
+              height="384.61"
+            />
+          </div>
+          <div class="project-card">
+            <img
+              src="/img/projects/webel.png"
+              alt="Webel"
+              width="650"
+              height="384.61"
+            />
+          </div>
+          <div class="project-card">
+            <img
+              src="/img/projects/conciertossolo.png"
+              alt="Conciertos Solo"
+              width="650"
+              height="384.61"
+            />
+          </div>
+          <div class="project-card">
+            <img
+              src="/img/projects/blinki.png"
+              alt="Blinki"
+              width="650"
+              height="384.61"
+            />
+          </div>
+          <div class="project-card">
+            <img
+              src="/img/projects/clubit.png"
+              alt="Clubit"
+              width="650"
+              height="384.61"
+            />
+          </div>
+          <div class="project-card">
+            <img
+              src="/img/projects/apolo.png"
+              alt="Apolo"
+              width="650"
+              height="384.61"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="imagina" class="project-section">
+        <div class="projects-title">
+          <h2 class="projects-title__title" id="project-name">
+            Imagina Energía
+          </h2>
+          <div id="hashtags" class="hashtags">
+            <span class="hashtag">#javascript</span>
+            <span class="hashtag">#react</span>
+            <span class="hashtag">#web performance</span>
+            <span class="hashtag">#maintenance</span>
+            <span class="hashtag">#figma</span>
+          </div>
+        </div>
+        <span class="explore-more"
+          >Tap anywhere to explore another project<br />Or keep scrolling</span
+        >
+        <!-- <div class="project-explanation" id="project-explanation">
+          <p class="project-explanation__text">
+            Develop and maintenance using React, focusing on improving web
+            performance, usability, and user experience.
+          </p>
+        </div> -->
+        <canvas id="imagina-canvas"></canvas>
+      </section>
+    </div>
+
+    <div class="cursor"></div>
+
+    <!-- <script type="module" src="src/heroBg/index.js"></script> -->
+    <!-- <script type="module" src="src/projectsWave/index.js"></script> -->
+  </body>
+</html>
